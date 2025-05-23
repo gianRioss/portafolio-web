@@ -12,6 +12,7 @@ export default function Hero() {
             alt="Gianmarco Ríos"
             className="w-48 h-48 rounded-full object-cover border-4 border-primary-light shadow-xl hover:scale-105 transition-transform duration-300"
           />
+          {/* Comentario para forzar un nuevo despliegue */}
         </div>
         <div className="space-y-4">
           <h1 className="text-5xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-light to-accent-light">
