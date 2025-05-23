@@ -4,11 +4,11 @@ import { smoothScroll } from '../utils/animations';
 export default function Hero() {
   return (
     <section id="inicio" className="relative min-h-screen flex items-center justify-center text-center bg-gradient-to-br from-blue-900 to-slate-900 text-white p-4 pt-20">
-      <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: 'url(background-pattern.svg)' }}></div>
+      <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: 'url(/background-pattern.svg)' }}></div>
       <div className="relative z-10 space-y-8 max-w-4xl mx-auto">
         <div className="flex justify-center">
           <img 
-            src="/foto-perfil.png.png" 
+            src="/foto-perfil.png" 
             alt="Gianmarco Ríos"
             className="w-48 h-48 rounded-full object-cover border-4 border-primary-light shadow-xl hover:scale-105 transition-transform duration-300"
           />

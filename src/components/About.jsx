@@ -17,7 +17,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-shrink-0">
           <img
-            src="/foto-perfil.png.png"
+            src="/foto-perfil.png"
             alt="Foto de Gianmarco"
               className="w-48 h-48 rounded-full object-cover shadow-xl border-4 border-primary-light md:w-60 md:h-60 transform transition-transform duration-300 hover:scale-105"
           />
