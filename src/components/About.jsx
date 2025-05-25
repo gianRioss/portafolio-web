@@ -16,10 +16,8 @@ export default function About() {
         <h2 className="section-title">Sobre mí</h2>
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-shrink-0">
-          <img
-            src="/foto-perfil.png"
-            alt="Foto de Gianmarco"
-              className="w-48 h-48 rounded-full object-cover shadow-xl border-4 border-primary-light md:w-60 md:h-60 transform transition-transform duration-300 hover:scale-105"
+          <img src="/portafolio-web/foto-perfil.png" alt="Gianmarco Ríos"
+          className="w-48 h-48 rounded-full object-cover shadow-xl border-4 border-primary-light md:w-60 md:h-60 transform transition-transform duration-300 hover:scale-105"
           />
           </div>
           <div className="space-y-6">
