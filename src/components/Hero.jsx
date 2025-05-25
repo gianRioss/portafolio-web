@@ -7,10 +7,8 @@ export default function Hero() {
       <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: 'url(/background-pattern.svg)' }}></div>
       <div className="relative z-10 space-y-8 max-w-4xl mx-auto">
         <div className="flex justify-center">
-          <img 
-            src="/foto-perfil.png" 
-            alt="Gianmarco Ríos"
-            className="w-48 h-48 rounded-full object-cover border-4 border-primary-light shadow-xl hover:scale-105 transition-transform duration-300"
+          <img src="foto-perfil.png" alt="Gianmarco Ríos" 
+          className="w-48 h-48 rounded-full object-cover border-4 border-primary-light shadow-xl hover:scale-105 transition-transform duration-300"
           />
           {/* Comentario para forzar un nuevo despliegue */}
         </div>
