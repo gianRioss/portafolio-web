@@ -6,7 +6,7 @@ export default function Projects() {
     {
       title: "Análisis de Desgaste Laboral - IBM HR Analytics",
       description: "Exploración y modelado predictivo sobre datos sintéticos de IBM para detectar causas de deserción laboral. Incluye visualizaciones, limpieza y un modelo de árbol de decisión.",
-      image: "/imagen-analisis-desgaste.png",
+      image: "/portafolio-web/imagen-analisis-desgaste.png",
       tools: ["Python", "Pandas", "Seaborn", "Scikit-learn"],
       github: "https://github.com/gianRioss/ibm-rrhh-attrision-analysis",
       demo: null,
@@ -15,7 +15,7 @@ export default function Projects() {
     {
       title: "Análisis de Billeteras Virtuales en Argentina (2019–2024)",
       description: "Proyecto con +100.000 transacciones simuladas. Incluye segmentación por edad, género y provincia, visualizaciones en Power BI y métricas clave sobre adopción digital.",
-      image: "/imagen-billeteras-virtuales.png",
+      image: "/portafolio-web/imagen-billeteras-virtuales.png",
       tools: ["Python", "SQL", "Power BI", "Excel"],
       github: "https://github.com/gianRioss/billeteras-virtuales-argentina",
       demo: null,
