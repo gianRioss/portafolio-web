@@ -156,7 +156,7 @@ export default function Contact() {
 
                 <div className="pt-6 border-t border-white/10">
                   <a href="/cv.pdf" download="CV_Gianmarco_Rios.pdf"
-                    className="group flex items-center justify-center gap-3 bg-gradient-to-r from-accent-light to-accent hover:from-accent hover:to-accent-light text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 w-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                     className="group flex items-center justify-center gap-3 bg-gradient-to-r from-accent-light to-accent hover:from-accent hover:to-accent-light text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 w-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                   >
                     <FaFileDownload className="text-xl group-hover:animate-bounce" />
                     <span>Ver CV</span>
