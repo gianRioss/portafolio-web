@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaEnvelope, FaArrowDown } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope, FaArrowDown, FaWhatsapp } from 'react-icons/fa';
 import { smoothScroll } from '../utils/animations';
 
 export default function Hero() {
@@ -41,6 +41,15 @@ export default function Hero() {
             aria-label="GitHub"
           >
             <FaGithub />
+          </a>
+          <a 
+            href="https://wa.me/5491125068490" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-primary-light transition-all duration-300 hover:scale-110"
+            aria-label="WhatsApp"
+          >
+            <FaWhatsapp />
           </a>
           <a 
             href="#contacto" 
