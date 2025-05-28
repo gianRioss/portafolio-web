@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import { FaReact, FaPython, FaGithub, FaDatabase } from 'react-icons/fa';
-import { SiVite, SiPowerbi, SiFigma, SiCanva, SiReacthookform, SiTailwindcss } from 'react-icons/si'; // Importar más íconos según necesidad
+import { SiVite, SiPowerbi, SiFigma, SiCanva, SiReacthookform, SiTailwindcss, SiGoogleanalytics, SiGoogletagmanager } from 'react-icons/si'; // Importar más íconos según necesidad
 
 export default function TechStack() {
   const technologies = [
@@ -25,9 +25,17 @@ export default function TechStack() {
       ]
     },
     {
+      category: 'Análisis y Seguimiento',
+      items: [
+        { name: 'Google Analytics', icon: <SiGoogleanalytics className="text-blue-500" /> },
+        { name: 'Google Tag Manager', icon: <SiGoogletagmanager className="text-orange-500" /> },
+      ]
+    },
+    {
       category: 'Infraestructura',
       items: [
         { name: 'GitHub', icon: <FaGithub className="text-gray-400" /> },
+        { name: 'GitHub Pages', icon: <FaGithub className="text-gray-400" /> },
         // Añadir Vercel o Netlify si usas (buscar iconos SiVercel, SiNetlify)
       ]
     },

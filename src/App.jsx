@@ -87,6 +87,8 @@ function App() {
             <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma Badge" />
             <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git Badge" />
             <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
+            <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=google-analytics&logoColor=white" alt="Google Analytics Badge" />
+            <img src="https://img.shields.io/badge/Google%20Tag%20Manager-246FDB?style=for-the-badge&logo=google-tag-manager&logoColor=white" alt="Google Tag Manager Badge" />
           </div>
         </footer>
       </div>

@@ -33,6 +33,8 @@ export default function Experience() {
         "Implementación de interfaces con HTML, CSS y React",
         "Uso de herramientas como Tailwind, Vite y Figma para maquetación y diseño",
         "Optimización para mobile, performance y experiencia de usuario",
+        "Integración de Google Analytics y Google Tag Manager para seguimiento y análisis de usuarios",
+        "Despliegue y mantenimiento en GitHub Pages con control de versiones Git",
         "Trabajo colaborativo con clientes para captar requerimientos y brindar soluciones web funcionales"
       ]
     }
