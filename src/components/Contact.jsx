@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
+import { trackEvent } from '../utils/analytics';
 
 const schema = yup.object({
   name: yup.string().required("El nombre es requerido"),
@@ -47,6 +48,9 @@ export default function Contact() {
       });
 
       reset();
+
+      // Rastrear el envío del formulario
+      trackEvent('Contact', 'Form Submit', 'Contact Form');
     } catch (error) {
       console.error('Error al enviar el email:', error);
       await Swal.fire({

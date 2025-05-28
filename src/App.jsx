@@ -12,11 +12,17 @@ import { Fade } from 'react-awesome-reveal';
 import Hero from './components/Hero';
 import ThemeToggle from './components/ThemeToggle';
 import Experience from './components/Experience';
+import { initGA, trackPageView } from './utils/analytics';
 
 function App() {
   const headerRef = useRef(null);
 
   useEffect(() => {
+    // Inicializar Google Analytics
+    initGA();
+    // Rastrear la vista inicial de la página
+    trackPageView(window.location.pathname);
+
     const scrollElements = document.querySelectorAll('.scroll-reveal');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {

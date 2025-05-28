@@ -1,11 +1,18 @@
 import { FaLinkedin, FaGithub, FaEnvelope, FaArrowDown, FaWhatsapp } from 'react-icons/fa';
 import { smoothScroll } from '../utils/animations';
 import { motion, useScroll, useTransform } from "framer-motion";
+import { trackEvent } from '../utils/analytics';
+import { useEffect } from 'react';
 
 export default function Hero() {
   const { scrollYProgress } = useScroll();
   const opacity = useTransform(scrollYProgress, [0, 0.3], [1, 0]);
   const scale = useTransform(scrollYProgress, [0, 0.3], [1, 0.9]);
+
+  useEffect(() => {
+    // Evento de prueba para verificar Google Analytics
+    trackEvent('Test', 'Hero Section Loaded', 'Hero Component');
+  }, []);
 
   return (
     <motion.section 
