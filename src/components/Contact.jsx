@@ -107,7 +107,7 @@ export default function Contact() {
                 </a>
 
                 <a 
-                  href="https://www.linkedin.com/in/gianmarco-mauricio"
+                  href="https://www.linkedin.com/in/gianmarcorios/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start space-x-4 group"
@@ -120,7 +120,7 @@ export default function Contact() {
                       LinkedIn
                     </h4>
                     <p className="text-gray-300">
-                      gianmarco-mauricio
+                      gianmarcorios
                     </p>
                   </div>
                 </a>
