@@ -77,7 +77,7 @@ export default function Hero() {
             className="p-4 rounded-full bg-white/5 backdrop-blur-md border border-white/10 shadow-[0_8px_32px_0_rgba(31,38,135,0.2)] hover:shadow-[0_8px_32px_0_rgba(31,38,135,0.3)] transition-all duration-500"
           >
             <a 
-              href="https://www.linkedin.com/in/gianmarco-rios/"
+              href="https://www.linkedin.com/in/gianmarcorios/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-primary-light transition-all duration-300"
